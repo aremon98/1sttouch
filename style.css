@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1180px)  {
+
+    body .about .about-main .about-img {
+    display: none;
+    }
+
+    body .about .about-main .about-details {
+    width: 100%;
+    margin-left: unset;
+    padding: 0 1.5em;
+    text-align: center;
+    margin-top: 2em;
+    }
+
+    body .about .about-main .about-details h2 {
+    font-size: 3rem;
+    margin: .5em 0;
+    }
+    body .about .about-main .about-details p {
+    margin: 1.35em 0;
+    font-size: 1.5rem;
+    padding: 0 4em;
+    }
+
+
+    body .portfolio .our-works {
+        flex-wrap: wrap;
+        padding: 1em 0.2em;
+        }
+        body .portfolio .our-works .work {
+        flex-basis: 50%;
+    
+        }
+        body .portfolio .our-works .large {
+        display: none;
+        }
+    
+        body .contact-area {
+            flex-direction: column;
+            margin: 0.5em 0.25em;
+        }
+        body .contact-form {
+            padding: 0 1em;
+            text-align: center;
+        }
+
+}
+
+@media only screen and (max-width: 768px)  {
+    nav {
+        display: none;     
+    }
+    body 
+    header {
+        padding:1em 2em;
+    }
+    body
+    header span {
+        display: block;
+     
+     }
+    .logo h1 {
+        font-size: 2.75rem;
+    }
+    body
+    .hero h1 {
+        font-size: 2.55rem;
+        margin: .2em auto;
+    }
+    body .hero p {
+        font-size: 1.75em;
+    font-family: sans-serif;
+    width: 85%;
+    line-height: 140%;
+    margin:1em 0 3em 0;
+    letter-spacing: 0.015;
+    }
+    body
+    .hero .btn a{
+        font-size: 1.8rem;
+        padding: 0.35em 1.2em;
+        opacity: 1;
+    }
+    body .about {
+        margin: 6em 0;
+    }
+    .about .about-title h1 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+    .about .about-title p {
+        width: 80%;
+        margin-bottom: 1.5em;
+        font-size: 1.75em;
+    }
+    body .about .about-main .about-img {
+        width: 100%;
+        padding: 0px 1.2em;
+        margin: 1em 0;
+        margin-bottom: 0;
+    }
+    body .about .about-main .about-details {
+        width: 100%;
+        margin-left: unset;
+        padding: 0 1.5em;
+        text-align: center;
+        margin-top: 2em;
+    }
+    body .about .about-main .about-details h2 {
+        font-size: 2.8rem;
+        margin: .5em 0;
+    }
+    body .about .about-main .about-details p {
+        margin: 1.35em 0;
+        font-size: 1.4rem;
+        padding: 0 0.5em;
+    }
+    body .testmonial-area {
+        margin: 7.5em 0.6em;
+    }
+    body .testmonial-area h1 {
+        font-size: 2.3rem;
+        font-weight: 500;
+        padding: .5em 0;
+    }
+    body .testmonial-area .testmonial {
+        flex-direction: column;
+    }
+    body .testmonial-area .testmonial .blockquote {
+        border-bottom: 1px solid red;
+        border-width: 50%;
+    }
+    body .portfolio .profolio-title h1 {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 2.3rem;
+    }
+    body .portfolio .our-works {
+        flex-direction: column;
+        margin: 3em 2em;
+        padding: 1em 0.2em;
+    }
+    body .portfolio .our-works .work {
+        width: 100%;
+        flex-basis: 100%;
+        margin: 0.3em 0;
+        border-radius: 0.25em;
+        
+    }
+    body .portfolio .our-works .same {
+        flex-basis: 100;
+        width: 100%;
+    }
+    
+    body .portfolio .our-works .small,
+    body .portfolio .our-works .large {
+        display: none;
+    
+    }
+    body .contact-area {
+        flex-direction: column;
+    }
+    body .contact-form {
+        padding: 0 1em;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 566px)   {
+    nav {
+        display: none;     
+    }
+    body 
+    header {
+        padding:1em 2em;
+    }
+    body
+    header span {
+        display: block;
+     
+     }
+    .logo h1 {
+        font-size: 2.2rem;
+    }
+    body
+    .hero h1 {
+        font-size: 2.15rem;
+        margin: .2em auto;
+    }
+    body .hero p {
+        font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 85%;
+    line-height: 130%;
+    margin-bottom: 2.1em;
+    }
+    body
+    .hero .btn a{
+        font-size: 1.5rem;
+        padding: 0.25em 1em;
+        opacity: 1;
+    }
+    body .about {
+        margin: 4em 0;
+    }
+    .about .about-title h1 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+    .about .about-title p {
+        width: 80%;
+        margin-bottom: 1em;
+    }
+    body .about .about-main .about-img {
+        width: 100%;
+        padding: 0px 1.2em;
+        margin: 1em 0;
+    }
+    body .about .about-main .about-details {
+        width: 100%;
+        margin-left: unset;
+        padding: 0 1.5em;
+        text-align: center;
+        margin-top: 2em;
+    }
+    body .about .about-main .about-details h2 {
+        font-size: 2.5rem;
+        margin: .5em 0;
+    }
+    body .about .about-main .about-details p {
+        margin: 1.3em 0;
+        padding: 0;
+    }
+    body .testmonial-area h1 {
+        font-size: 2.3rem;
+        font-weight: 500;
+        padding: .5em 0;
+    }
+    body .testmonial-area .testmonial {
+        flex-direction: column;
+    }
+    body .testmonial-area .testmonial .blockquote {
+        margin: 0.1em 0;
+        border-bottom: 1px solid red;
+        border-width: 50%;
+    }
+    body .testmonial-area .testmonial .blockquote:nth-hild(3){
+        border-bottom: none;
+    }
+    body .portfolio .profolio-title h1 {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 2.3rem;
+    }
+    body .portfolio .our-works {
+        flex-direction: column;
+        margin: 3em 2em;
+        padding: 1em 0.2em;
+    }
+    body .portfolio .our-works .work {
+        width: 100%;
+        flex-basis: 100%;
+        margin: 0.3em 0;
+        border-radius: 0.25em;
+        
+    }
+    body .portfolio .our-works .same {
+        flex-basis: 100;
+        width: 100%;
+    }
+
+    body .portfolio .our-works .small ,
+    body .portfolio .our-works .large {
+        display: none;
+    
+    }
+    body .contact-area {
+        flex-direction: column;
+    }
+    body .contact-form {
+        padding: 0 1em;
+        text-align: center;
+    }
+}
+
+
+
+
+body {
+    font-size: 80%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    z-index: 11;
+}
+header span {
+   display: none;
+
+}
+h1 {
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    color: #fff;
+}
+nav,
+ul,
+li
+{
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    margin-right: -0.7em;
+    align-items: center;
+}
+li a{
+    margin: 0 0.7em;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.hero {
+    background-image:linear-gradient(to left bottom, rgba(197, 32, 32, 0.767), rgba(32, 32, 194, 0.767)), url(man-in-mid-air-with-skateboard-2387325\ \(1\).jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero h1 {
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+    color: rgb(247, 240, 240);
+    font-weight: 600;
+}
+.hero p {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 145%;
+    word-spacing: 0.14em;
+    margin-bottom: 3.2em;
+    margin-top: 0.7em;
+    color: rgba(224, 221, 221, 0.822);
+
+}
+
+.hero .btn a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.4em 1.35em;
+    border-radius: 0.15em;
+    color: #fff;
+    opacity: 0.75;
+    background-color: rgb(235, 53, 53);
+}
+
+.about {
+    margin: 7.5em auto;
+}
+.about h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+.about p {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    line-height: 150%;
+    letter-spacing: 0.025em;
+    color: rgb(48, 41, 41);
+}
+.about .about-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-main .about-img {
+   width: 40%;
+    padding: 0 .8em;
+    height: 100%;
+    border-radius: .051em;
+    padding-left: 4em;
+}
+.about .about-main .about-img img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.about .about-main .about-details{
+    width: 50%;
+    margin-left: -2em;
+}
+
+.about .about-main .about-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.51em;
+    font-weight: 400;
+}
+.about .about-main .about-details p {
+    width: 100%;
+    text-align: unset;
+    margin-top: 0;
+    line-height: 1.7;
+}
+
+.testmonial-area {
+    background-color: rgb(223, 213, 213);
+    padding: 2.5em 0;
+    margin-top: 6.5rem auto;
+}
+.testmonial-area h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 1em;
+}
+.testmonial {
+    
+    display: flex;
+    padding: 0 2em;
+
+}
+.testmonial .blockquote {
+    flex-basis: 33%;
+    margin: 0 0.4em;
+    padding: 2.5em 3.5em;
+
+}
+.testmonial .blockquote .quote {
+    font-size: 1.5rem;
+    margin: 0.8em 0;
+    color: rgb(69, 69, 75);
+}
+.testmonial .blockquote .author {
+    font-weight: 600;
+    color: rgb(16, 17, 24);
+    font-size: 0.95rem;
+    float: right;
+}
+
+
+
+
+
+
+.portfolio {
+    margin: 7em auto;
+    overflow: hidden;
+}
+.profolio-title h1{
+    color: black;
+    text-align: center;
+    padding: .6em 0 0 0.15em;
+    margin-top: 1em;
+}
+.portfolio .our-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem 6rem;
+    margin: 0 4em; 
+}
+.portfolio .our-works .work {
+    height: 50vh;
+    border: 3px solir red;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    
+    padding:0.4em;
+}
+
+.portfolio .our-works .large {
+    flex-basis: 60%;
+    
+}
+.portfolio .our-works .small {
+    flex-basis: 40%;
+   
+}
+.portfolio .our-works .same {
+    flex-basis: 50%;
+}
+.portfolio .our-works img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    margin: 5.5em 0;
+}
+
+
+.contact-area {
+    display: flex;
+}
+.contact-maps {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    margin: 1em 0;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    margin: 1.6em 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+.wrap {
+    margin-bottom: 3em;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+    color: rgb(12, 12, 12);
+    border-bottom: 1px solid rgb(51, 50, 50);
+    padding: .7em  .7em  0.7em 0;
+}
+textarea {
+    height: 8em;
+}
+
+input[type=submit]{
+    padding: 0.4em 2.2em;
+    font-size: 1.45rem;
+    background-color: rgb(214, 61, 61);
+    border-radius: 0.15em;
+    outline: 0;
+    box-shadow: none;
+    backface-visibility: hidden;
+    animation-fill-mode: forwards;
+    border: none;
+
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.8em 2em;
+    background-color: #333;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footerleft {
+    color: rgb(185, 175, 175);
+}
+footer .footerright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footerright span{
+    font-size: 0.8rem;
+    color: rgb(37, 37, 218);
+    margin: 0 0.4em;
+    padding: 0.9em 1.25em;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+
+
+
+
+
